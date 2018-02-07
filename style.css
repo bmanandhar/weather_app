@@ -1,9 +1,18 @@
 
+.header {
+    background-color: MediumVioletRed;
+}
+
+.city {
+    font-family: sans-serriff;
+    font-size: 25px;
+
+}
+
 .center{
     margin: auto;
-    width: 60%;
+    width: 75%;
     border: 3px solid #73AD21;
-    padding: 10px;
-    font-size: 20px;
-    text-align:left; 
+    padding: 2px;
+    text-align:left;
 }
