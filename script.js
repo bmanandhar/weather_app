@@ -12,7 +12,7 @@ $(document).ready(function(){
                 var widget= show(data);
                 $("#show").html(widget);
                 $("#city").val("");
-
+   $(".weather").html(data.main.temp);
                console.log(data);
             }
         });
