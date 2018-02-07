@@ -9,10 +9,15 @@
 
 }
 
+.main {
+    background-color: yellow;
+}
+
 .center{
+    background-color: white;
     margin: auto;
     width: 75%;
     border: 3px solid #73AD21;
     padding: 2px;
-    text-align:left;
+    text-align: left;
 }
