@@ -30,5 +30,4 @@ function show(data){
            "<h5><strong>Temp Min</strong>: "+data.main.temp_min+"&#8457</h5>"+
            "<h5><strong>Wind speed</strong>: "+data.wind.speed+"m/sec</h5>"+
            "<h5><strong>Wind direction</strong>: "+data.wind.deg+"&#176</h5>";
-           "<span>Icon</span>: "+data.weather[0].icon+"</span>"
 };
