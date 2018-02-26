@@ -1,6 +1,6 @@
 
 $(document).ready(function(){
-    $("#submit").click(function(){
+    $("#submit").on("click", function(){
         var city = $("#city").val();
         if (city != "") {
             $.ajax({
