@@ -31,6 +31,11 @@ Upon successful data call, the current weather condition of the city will get di
 If the city name entered is invalid or has error, it displays error messages accordingly.
 </p>
 
+*Challenges*
+
+* Writing jQuery function
+* Function AJAX get method using the url.
+
 ### Cool!
 
 *Screenshot Image*
