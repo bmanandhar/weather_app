@@ -43,6 +43,11 @@ If the city name entered is invalid or has error, it displays error messages acc
 
 <img src="weather.png" alt="Weather" style="width:100px;"/> 
 
+* Error Message
+
+<img src="weather_error.png" alt="Error" style="width:100px;"/> 
+
+
 
 
 
