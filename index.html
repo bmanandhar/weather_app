@@ -1,36 +1,38 @@
 <!DOCTYPE html>
+<html lang="en"><!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Current Weather</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <title>Weather App</title>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
 </head>
 <body>
-  <div class="container-fluid text-center">
-    <div class="header">
-      <h3>Current weather</h3>
-      <input type="text" id="city" placeholder="City name">
-      <button class="btn btn-default" type = "submit" id="submit">Submit</button><br><br>
+    <div class="container-fluid text-center">
+        <div class="header">
+            <h3>Current weather</h3>
+            <h5>Submit city name<h5>
+            <input class="input-box" type="text" id="city" placeholder="City name">
+            <button class="btn" type="submit" id="submit">Submit</button>
+            <button class="btn" id="reset">Reset</button>
+        </div>
+        <div class="main">
+            <div class="center">
+                <div class="conversion">
+<!--                     <button class="btn btn-primary">C/F</button> -->
+                </div>
+                <div id="show">
+                </div>
+            </div>
+        </div>
+        <br>
+        <footer>- -- ---( This is footer section, विजय )--- -- -</footer>
+        <script src="script.js"></script> 
+        <!-- <script src="script/imperial.js"></script> 
+        <script src="script/metric.js"></script>  -->
     </div>
-    <div class="main">
-       <span id="error"></span><br>
-       <span class="city"></span>
-       <div class="center">
-         <div class="text-center" id="show">
-         </div>
-       </div><br>
-    </div>
-  </div>
 </body>
 </html>
-<!--Stylesheet link-->
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css">
-    <link href="style.css" rel="stylesheet">
-
-<!-- javascript written below with link to jquery -->
-    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="script.js"></script>
