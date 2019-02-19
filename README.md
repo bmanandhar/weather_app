@@ -33,6 +33,9 @@ If the city name entered is invalid or has error, it displays error messages acc
 
 ### Cool!
 
+*Screenshot Image*
+
+[Weather Image](weather.png)
 
 
 
