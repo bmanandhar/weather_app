@@ -42,7 +42,7 @@ If the city name entered is invalid or has error, it displays error messages acc
 * Weather
 
 <img src="weather.png" alt="Weather" style="width:400px"/>
-![](weather.png) 
+<!-- ![](weather.png)  -->
 
 
 
