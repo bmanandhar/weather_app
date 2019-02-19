@@ -41,7 +41,8 @@ If the city name entered is invalid or has error, it displays error messages acc
 *Screenshot Image*
 * Weather
 
-![Weather, Weather Image](weather.png)
+<img src="weather.png" style="width:800px;"/>
+![alt="weather](weather.png) 
 
 
 
