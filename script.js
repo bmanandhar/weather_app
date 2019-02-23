@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $(".reset").click(function(){
-        location.reload();
+        history.go(0);;
     });
   
     var now = new Date();
