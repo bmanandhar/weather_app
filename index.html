@@ -14,25 +14,20 @@
     <div class="container-fluid text-center">
         <div class="header">
             <h3>Current weather</h3>
-            <h5>Submit city name<h5>
+            <h5>Enter city name and click &degC or &degF<h5>            
+            <button class="btn reset">Clr</button>
             <input class="input-box" type="text" id="city" placeholder="City name">
-            <button class="btn" type="submit" id="submit">Submit</button>
-            <button class="btn" id="reset">Reset</button>
+            <button class="btn metric" type="submit" id="submit">&degC</button>
+            <button class="btn imperial" type="submit" id="submit">&degF</button>
         </div>
         <div class="main">
             <div class="center">
-                <div class="conversion">
-<!--                     <button class="btn btn-primary">C/F</button> -->
-                </div>
                 <div id="show">
                 </div>
             </div>
         </div>
-        <br>
         <footer>- -- ---( This is footer section, विजय )--- -- -</footer>
-        <script src="script.js"></script> 
-        <!-- <script src="script/imperial.js"></script> 
-        <script src="script/metric.js"></script>  -->
+        <script src="script.js"></script>
     </div>
 </body>
 </html>
