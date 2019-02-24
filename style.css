@@ -5,10 +5,15 @@
   padding: 2px;
 }
 
+.buttons-and-city {
+  display: flex;
+  justify-content: center;
+}
+
 .input-box {
   width: 190px;
-  height: 40px;
-  margin: .5px;
+  height: 38px;
+  margin-left: .5px;
   border: 1px;
   border-style: solid;
   border-color: grey;
