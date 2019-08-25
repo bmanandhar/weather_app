@@ -16,7 +16,7 @@ This is a web application that will display weather data of any city that the us
 *How it works*
 
 <p>
-The file index.html is the web entry point. The HTML and CSS technologies make it possible to display a window on the screen prompting the user to enter a city name of which weather data is looked for. 
+The file index.html is the web entry point. HTML and CSS technologies make it possible to display a window on the screen prompting the user to enter a city name of which weather data is looked for. 
 </p>
 <p>
 As soon as a valid city name is entered by clicking the 'Submit' button, a fuction gets triggered on the script.js file that has code base written in JavaScript using Jquery library. 
