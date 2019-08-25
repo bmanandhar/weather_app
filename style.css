@@ -69,28 +69,6 @@
   border-radius: 2px;   
 }
 
-.conversion {
-display: none;
-}
-
-.temp-and-btn {
-  display: flex;
-  justify-content: space-between;
-}
-
-.convert-btn {
-  height: 22px;
-  width: 50px;
-  background-color: skyblue;
-}
-
-.temp {
-  width: 136px;
-  background-color: lightgray
-  border: 2px solid yellowgreen;
-
-}
-
 #show{
   text-align: left;
   width: 250px;
