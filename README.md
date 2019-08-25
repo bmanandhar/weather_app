@@ -43,11 +43,11 @@ If the city name entered is invalid or has an error, it displays an error messag
 
 <img src="weather.png" alt="Weather" width=400/> 
 
-* Error Message for empty city-field 
+<!-- * Error Message for empty city-field 
 <img src="weather_empty.png" alt="Error" width=400/> 
 
 * Error Message for wrong city-field 
-<img src="weather_wrong.png" alt="Error" width=400/> 
+<img src="weather_wrong.png" alt="Error" width=400/>  -->
 
 
 
