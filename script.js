@@ -1,10 +1,9 @@
 $(document).ready(function(){
     $(".reset").click(function(){
-        history.go(0);;
+        history.go(0);
     });
   
     var now = new Date();
-    // var nowArray = now.split("");
     console.log(now);
     console.log('now is', typeof now);
     var timestamp = now.getTime()
@@ -38,28 +37,28 @@ $(document).ready(function(){
         }
     });
   });
-  
+  //Imperial
   function imperial(data){
       var now = new Date();
       var timestamp = now.getTime()
       var time = now.getHours() + ":" + now.getMinutes() + ":" + now.getSeconds();
-      return (
-        `<img style="background-color:skyblue" src='http://openweathermap.org/img/w/${data.weather[0].icon}.png'/><br>
-          <p>Weather: ${data.weather[0].main}</p>
-          <p>Description: ${data.weather[0].description}</p>
-          <p>Temperature: <b>${data.main.temp}</b>&#8457</p>
-          <p>Temp Max: <b>${data.main.temp_max}</b>&#8457</p>
-          <p>Temp Min: <b>${data.main.temp_min}</b>&#8457</p>
-          <p>Pressure: ${data.main.pressure} hPa</p>
-          <p>Humidity: ${data.main.humidity}%</p>
-          <p>Wind speed: ${data.wind.speed} mile/hr</p>
-          <p>Wind direction: ${data.wind.deg}&#176</p>
-          <p style="color:blue">[ ${data.name}, ${data.sys.country}]<p>
-          <p>Time in this city: ${time}</p>`
-          );
+      return 
+        (
+            `<img style="background-color:skyblue" src='http://openweathermap.org/img/w/${data.weather[0].icon}.png'/><br>
+            <p>Weather: ${data.weather[0].main}</p>
+            <p>Description: ${data.weather[0].description}</p>
+            <p>Temperature: <b>${data.main.temp}</b>&#8457</p>
+            <p>Temp Max: <b>${data.main.temp_max}</b>&#8457</p>
+            <p>Temp Min: <b>${data.main.temp_min}</b>&#8457</p>
+            <p>Pressure: ${data.main.pressure} hPa</p>
+            <p>Humidity: ${data.main.humidity}%</p>
+            <p>Wind speed: ${data.wind.speed} mile/hr</p>
+            <p>Wind direction: ${data.wind.deg}&#176</p>
+            <p style="color:blue">[ ${data.name}, ${data.sys.country}]<p>
+            <p>Time in this city: ${time}</p>`
+        );
     }
   
-  //Metric:-
   $(document).ready(function(){
     $("#reset").click(function(){
         location.reload();
@@ -90,23 +89,25 @@ $(document).ready(function(){
     });
   });
   
+  //Metric
   function metric(data){
       var now = new Date();
       var timestamp = now.getTime()
       var time = now.getHours() + ":" + now.getMinutes() + ":" + now.getSeconds();
-      return (
-        `<img style="background-color:skyblue" src='http://openweathermap.org/img/w/${data.weather[0].icon}.png'/><br>
-          <p>Weather: ${data.weather[0].main}</p>
-          <p>Description: ${data.weather[0].description}</p>
-          <p>Temperature: <b>${data.main.temp}</b>&#8451</p>
-          <p>Temp Max: <b>${data.main.temp_max}</b>&#8451</p>
-          <p>Temp Min: <b>${data.main.temp_min}</b>&#8451</p>
-          <p>Pressure: ${data.main.pressure} hPa</p>
-          <p>Humidity: ${data.main.humidity}%</p>
-          <p>Wind speed: ${data.wind.speed} km/hr</p>
-          <p>Wind direction: ${data.wind.deg}&#176</p>
-          <p style="color:blue">[ ${data.name}, ${data.sys.country}]<p>
-          <p>Time in this city: ${time}</p>`
-          );
+      return 
+        (
+            `<img style="background-color:skyblue" src='http://openweathermap.org/img/w/${data.weather[0].icon}.png'/><br>
+            <p>Weather: ${data.weather[0].main}</p>
+            <p>Description: ${data.weather[0].description}</p>
+            <p>Temperature: <b>${data.main.temp}</b>&#8451</p>
+            <p>Temp Max: <b>${data.main.temp_max}</b>&#8451</p>
+            <p>Temp Min: <b>${data.main.temp_min}</b>&#8451</p>
+            <p>Pressure: ${data.main.pressure} hPa</p>
+            <p>Humidity: ${data.main.humidity}%</p>
+            <p>Wind speed: ${data.wind.speed} km/hr</p>
+            <p>Wind direction: ${data.wind.deg}&#176</p>
+            <p style="color:blue">[ ${data.name}, ${data.sys.country}]<p>
+            <p>Time in this city: ${time}</p>`
+        );
     }
     
